@@ -1,0 +1,39 @@
+/* Basic CSS Stylesheet */
+
+body {
+    background-color: #333333; /* Dark grey background */
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Helvetica Neue font with fallbacks */
+    color: #ffffff; /* Light text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #444444; /* Slightly lighter grey for the nav bar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-links a {
+    color: #ffffff; /* Light color for links */
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Add additional styling as needed */
